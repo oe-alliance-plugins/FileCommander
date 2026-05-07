@@ -315,9 +315,8 @@ glob_running = False
 
 
 class FileCommanderScreen(Screen, HelpableScreen, key_actions):
-	if FULLHD:
-		skin = """
-		<screen position="40,80" size="1840,920" title="" >
+	skin = """
+		<screen position="40,80" size="1840,920" resolution="1840,920">
 			<widget name="list_left_head1" position="10,5" size="890,28" itemHeight="28" font="Regular;24" foregroundColor="#00cccc40"/>
 			<widget name="list_left_filename" position="10,31" size="890,21" font="Regular;18" noWrap="1" foregroundColor="grey" backgroundColor="secondBG" transparent="1" zPosition="1"/>
 			<widget name="list_left_select" position="10,50" size="890,30" zPosition="1" font="Regular;24" transparent="1" foregroundColor="#0000cc60"/>
@@ -365,56 +364,7 @@ class FileCommanderScreen(Screen, HelpableScreen, key_actions):
 			<ePixmap position="990,880" size="390,33" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/FileCommander/pic/button_yellow.png" transparent="1" alphatest="on"/>
 			<ePixmap position="1433,880" size="390,33" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/FileCommander/pic/button_blue.png" transparent="1" alphatest="on"/>
 		</screen>"""
-	else:
-		skin = """
-		<screen position="40,80" size="1200,600" title="" >
-			<widget name="list_left_head1" position="10,5" size="570,21" font="Regular;18" foregroundColor="#00cccc00"/>
-			<widget name="list_left_filename" position="10,26" size="570,16" font="Regular;14" noWrap="1" foregroundColor="grey" backgroundColor="secondBG" transparent="1" zPosition="1"/>
-			<widget name="list_left_select" position="10,42" size="570,20" zPosition="1" font="Regular;18" transparent="1" foregroundColor="#0000cc60"/>
-			<widget source="list_left_head2" render="Listbox" position="10,42" size="570,20" foregroundColor="#00cccc00" selectionDisabled="1" transparent="1">
-				<convert type="TemplatedMultiContent">
-					{"template": [
-						MultiContentEntryText(pos = (0, 0), size = (115, 20), font = 0, flags = RT_HALIGN_LEFT, text = 1), # index 1 is a symbolic mode
-						MultiContentEntryText(pos = (130, 0), size = (90, 20), font = 0, flags = RT_HALIGN_RIGHT, text = 11), # index 11 is the scaled size
-						MultiContentEntryText(pos = (235, 0), size = (260, 20), font = 0, flags = RT_HALIGN_LEFT, text = 15), # index 15 is the modification time
-						],
-						"fonts": [gFont("Regular", 18)],
-						"itemHeight": 20,
-						"selectionEnabled": False
-					}
-				</convert>
-			</widget>
-			<widget name="list_right_head1" position="610,5" size="570,21" font="Regular;18" foregroundColor="#00cccc00"/>
-			<widget name="list_right_filename" position="610,26" size="570,16" font="Regular;14" noWrap="1" foregroundColor="grey" backgroundColor="secondBG" transparent="1" zPosition="1"/>
-			<widget name="list_right_select" position="610,42" size="570,20" zPosition="1" font="Regular;18" transparent="1" foregroundColor="#0000cc60"/>
-			<widget source="list_right_head2" render="Listbox" position="610,42" size="570,20" foregroundColor="#00cccc00" selectionDisabled="1" transparent="1">
-				<convert type="TemplatedMultiContent">
-					{"template": [
-						MultiContentEntryText(pos = (0, 0), size = (115, 20), font = 0, flags = RT_HALIGN_LEFT, text = 1), # index 1 is a symbolic mode
-						MultiContentEntryText(pos = (130, 0), size = (90, 20), font = 0, flags = RT_HALIGN_RIGHT, text = 11), # index 11 is the scaled size
-						MultiContentEntryText(pos = (235, 0), size = (260, 20), font = 0, flags = RT_HALIGN_LEFT, text = 15), # index 15 is the modification time
-						],
-						"fonts": [gFont("Regular", 18)],
-						"itemHeight": 20,
-						"selectionEnabled": False
-					}
-				</convert>
-			</widget>
-			<widget name="list_left" position="10,70" size="570,466" itemHeight="31" scrollbarMode="showOnDemand"/>
-			<widget name="list_right" position="610,70" size="570,466" itemHeight="31" scrollbarMode="showOnDemand"/>
-			<widget name="list_left_free" position="10,536" size="100,17" font="Regular;15"/><!-- for FileCommanderScreenFileSelect, do not remove it -->
-			<widget name="list_right_free" position="610,536" size="100,17" font="Regular;15"/><!-- for FileCommanderScreenFileSelect, do not remove it -->
-			<widget name="sort_left" position="10,536" size="570,17" halign="center" font="Regular;15" foregroundColor="#00cccc00"/>
-			<widget name="sort_right" position="610,536" size="570,17" halign="center" font="Regular;15" foregroundColor="#00cccc00"/>
-			<widget source="key_red" render="Label" position="100,570" size="260,25" transparent="1" font="Regular;20"/>
-			<widget source="key_green" render="Label" position="395,570" size="260,25"  transparent="1" font="Regular;20"/>
-			<widget source="key_yellow" render="Label" position="690,570" size="260,25" transparent="1" font="Regular;20"/>
-			<widget source="key_blue" render="Label" position="985,570" size="260,25" transparent="1" font="Regular;20"/>
-			<ePixmap position="70,570" size="260,25" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/FileCommander/pic/button_red.png" transparent="1" alphatest="on"/>
-			<ePixmap position="365,570" size="260,25" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/FileCommander/pic/button_green.png" transparent="1" alphatest="on"/>
-			<ePixmap position="660,570" size="260,25" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/FileCommander/pic/button_yellow.png" transparent="1" alphatest="on"/>
-			<ePixmap position="955,570" size="260,25" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/FileCommander/pic/button_blue.png" transparent="1" alphatest="on"/>
-		</screen>"""
+
 
 	def __init__(self, session, path_left=None):
 		# path_left == "" means device list, whereas path_left == None means saved or default value
@@ -478,6 +428,7 @@ class FileCommanderScreen(Screen, HelpableScreen, key_actions):
 		self["key_green"] = StaticText(_("Move"))
 		self["key_yellow"] = StaticText(_("Copy"))
 		self["key_blue"] = StaticText(_("Rename"))
+		self["key_menu"] = StaticText(_("MENU"))
 		self["VKeyIcon"] = Boolean(False)
 
 		if cfg.toggle_stop_pause.value:
