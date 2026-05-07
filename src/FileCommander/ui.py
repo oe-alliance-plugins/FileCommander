@@ -68,7 +68,7 @@ def _make_filter(media_type):
 
 
 def _make_rec_filter():
-	return r"(?i)^.*\.(" + '|'.join(sorted(["ts"] + [ext == "eit" and ext or "ts." + ext for ext in MOVIEEXTENSIONS.keys89])) + ")$"
+	return r"(?i)^.*\.(" + '|'.join(sorted(["ts"] + [ext == "eit" and ext or "ts." + ext for ext in MOVIEEXTENSIONS.keys()])) + ")$"
 
 
 FULLHD = False
