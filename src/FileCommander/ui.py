@@ -62,6 +62,7 @@ pvers = "%s%s" % (_("v"), "2.13")
 
 MOVIEEXTENSIONS = {"cuts": "movieparts", "meta": "movieparts", "ap": "movieparts", "sc": "movieparts", "eit": "movieparts"}
 
+
 def _make_filter(media_type):
 	return r"(?i)^.*\.(" + '|'.join(sorted((ext for ext, type in EXTENSIONS.items() if type == media_type))) + ")$"
 
@@ -258,9 +259,9 @@ class Setup(ConfigListScreen, Screen):
 def formatSortingTyp(sortDirs, sortFiles):
 	sortDirs, reverseDirs = [int(x) for x in sortDirs.split('.')]
 	sortFiles, reverseFiles = [int(x) for x in sortFiles.split('.')]
-	sD = (_('n'), _('d'), _('s'))[sortDirs] #name, date, size
+	sD = (_('n'), _('d'), _('s'))[sortDirs]  # name, date, size
 	sF = (_('n'), _('d'), _('s'))[sortFiles]
-	rD = ('+', '-')[reverseDirs] #normal, reverse
+	rD = ('+', '-')[reverseDirs]  # normal, reverse
 	rF = ('+', '-')[reverseFiles]
 	return _('[D]%s%s[F]%s%s') % (sD, rD, sF, rF)
 
@@ -272,8 +273,8 @@ def cutLargePath(path, label):
 		return label.instance.calculateSize().width()
 	if path != "/":
 		path = path.rstrip('/')
-	w = label.instance.size().width()	# label width
-	path_w = getStringSize(path, label)	# text width
+	w = label.instance.size().width()  # label width
+	path_w = getStringSize(path, label)  # text width
 	if path_w > w:
 		path = path.split('/')
 		for i, idx in enumerate(path):
@@ -551,7 +552,7 @@ class FileCommanderScreen(Screen, HelpableScreen, key_actions):
 	def checkJobs_TimerCB(self):
 		self.jobs_old = 0
 		for job in job_manager.getPendingJobs():
-			if (job.name.startswith(_('copy file')) or job.name.startswith(_('copy folder')) or job.name.startswith(_('move file')) or job.name.startswith(_('move folder'))or job.name.startswith(_('Run script'))):
+			if (job.name.startswith(_('copy file')) or job.name.startswith(_('copy folder')) or job.name.startswith(_('move file')) or job.name.startswith(_('move folder')) or job.name.startswith(_('Run script'))):
 				self.jobs_old += 1
 		self.jobs_old -= self.jobs
 		self.onLayout()
@@ -864,7 +865,7 @@ class FileCommanderScreen(Screen, HelpableScreen, key_actions):
 				del self.containers[:]
 		if not glob_running and cfg.showTaskCompleted_message.value:
 			for job in job_manager.getPendingJobs():
-				if (job.name.startswith(_('copy file')) or job.name.startswith(_('copy folder')) or job.name.startswith(_('move file')) or job.name.startswith(_('move folder'))or job.name.startswith(_('Run script'))):
+				if (job.name.startswith(_('copy file')) or job.name.startswith(_('copy folder')) or job.name.startswith(_('move file')) or job.name.startswith(_('move folder')) or job.name.startswith(_('Run script'))):
 					return
 			# commented out
 			# from Screens.Standby import inStandby
@@ -1580,7 +1581,7 @@ class FileCommanderScreenFileSelect(Screen, HelpableScreen, key_actions):
 		menu.append((_("Deselect All"), self.deselectAll))									#""
 		menu.append((_("Create directory in 'Target' panel"), self.gomakeDir))							#7
 		menu.append((_("Invert Selection"), self.invertSelection))								#blue
-		menu.append((_("Settings..."), boundFunction(self.session.openWithCallback, self.runBacktoMenu, MultiSelectionSetup)))	#menu
+		menu.append((_("Settings..."), boundFunction(self.session.openWithCallback, self.runBacktoMenu, MultiSelectionSetup)))  # menu
 		keys = ["2", "5", "", "", "7", "blue", "menu"]
 		self.session.openWithCallback(self.menuCallback, ChoiceBox, title=_("Select operation:"), list=menu, keys=["dummy" if key == "" else key for key in keys], skin_name="ChoiceBox")
 
@@ -1726,7 +1727,6 @@ class FileCommanderScreenFileSelect(Screen, HelpableScreen, key_actions):
 
 
 # ## new folder in !Target! ###
-
 
 	def gomakeDir(self):
 		filename = self.TARGETLIST.getFilename()

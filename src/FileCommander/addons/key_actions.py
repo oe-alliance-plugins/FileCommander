@@ -349,7 +349,7 @@ class key_actions(stat_info):
 				_("%s") % scaledsize,  # 11
 				_("%s (%s)") % (bytesize, scaledsize),  # 12
 				_("%s (%s)") % (scaledsize, bytesizedivided) if st.st_size > 1023 else "%s %s" % (bytesizedivided, _('B')),  # 13
-				_("%s (%s)") % (scaledsize, bytesizedividedspace) if st.st_size > 1023 else "%s %s" % (bytesizedividedspace, _('B')) # 14
+				_("%s (%s)") % (scaledsize, bytesizedividedspace) if st.st_size > 1023 else "%s %s" % (bytesizedividedspace, _('B'))  # 14
 			)
 
 		return [modes + (
@@ -375,7 +375,7 @@ class key_actions(stat_info):
 
 	@staticmethod
 	def filterSettings():
-		return(
+		return (
 			config.plugins.filecommander.extension.value,
 			config.plugins.filecommander.my_extension.value
 		)

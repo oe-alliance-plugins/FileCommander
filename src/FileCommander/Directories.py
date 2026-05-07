@@ -61,17 +61,17 @@ defaultPaths = {
 		SCOPE_MEDIA: ("/media/", PATH_DONTCREATE),
 		SCOPE_PLAYLIST: (eEnv.resolve("${sysconfdir}/enigma2/playlist/"), PATH_CREATE),
 
-		SCOPE_USERETC: ("", PATH_DONTCREATE), # user home directory
+		SCOPE_USERETC: ("", PATH_DONTCREATE),  # user home directory
 		SCOPE_DEFAULTDIR: (eEnv.resolve("${datadir}/enigma2/defaults/"), PATH_CREATE),
 		SCOPE_DEFAULTPARTITION: ("/dev/mtdblock6", PATH_DONTCREATE),
 		SCOPE_DEFAULTPARTITIONMOUNTDIR: (eEnv.resolve("${datadir}/enigma2/dealer"), PATH_CREATE),
 		SCOPE_METADIR: (eEnv.resolve("${datadir}/meta"), PATH_CREATE),
 	}
 
-FILE_COPY = 0 # copy files from fallback dir to the basedir
-FILE_MOVE = 1 # move files
-PATH_COPY = 2 # copy the complete fallback dir to the basedir
-PATH_MOVE = 3 # move the fallback dir to the basedir (can be used for changes in paths)
+FILE_COPY = 0  # copy files from fallback dir to the basedir
+FILE_MOVE = 1  # move files
+PATH_COPY = 2  # copy the complete fallback dir to the basedir
+PATH_MOVE = 3  # move the fallback dir to the basedir (can be used for changes in paths)
 fallbackPaths = {
 		SCOPE_CONFIG: [("/home/root/", FILE_MOVE), (eEnv.resolve("${datadir}/enigma2/defaults/"), FILE_COPY)],
 		SCOPE_HDD: [("/media/hdd/movie", PATH_MOVE)],
@@ -248,7 +248,7 @@ def defaultRecordingLocation(candidate=None):
 		havelocal = False
 		for candidate in mounts:
 			try:
-				islocal = candidate[1].startswith('/dev/') # Good enough
+				islocal = candidate[1].startswith('/dev/')  # Good enough
 				stat = os.statvfs(candidate[1])
 				# Free space counts double
 				size = (stat.f_blocks + stat.f_bavail) * stat.f_bsize
@@ -264,7 +264,7 @@ def defaultRecordingLocation(candidate=None):
 		if os.path.isdir(movie):
 			path = movie
 		if not path.endswith('/'):
-			path += '/' # Bad habits die hard, old code relies on this
+			path += '/'  # Bad habits die hard, old code relies on this
 	return path
 
 

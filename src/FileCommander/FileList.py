@@ -316,7 +316,7 @@ class MultiFileSelectList(FileList):
 	def deselectAllSelection(self):
 		self.setAllSelection(False)
 
-	def setAllSelection(self, select=False): # select all (True) or deselect all (False)
+	def setAllSelection(self, select=False):  # select all (True) or deselect all (False)
 		for idx, x in enumerate(self.list):
 			if x[0][4].startswith('<'):
 				self.list[idx] = x
@@ -338,7 +338,7 @@ class MultiFileSelectList(FileList):
 				self.list[idx] = MultiFileSelectEntryComponent(name=x[0][4], absolute=x[0][0], isDir=x[0][1], isLink=x[0][2], selected=SelectState)
 		self.l.setList(self.list)
 
-	def toggleAllSelection(self): # invert
+	def toggleAllSelection(self):  # invert
 		for idx, x in enumerate(self.list):
 			if x[0][4].startswith('<'):
 				self.list[idx] = x

@@ -70,7 +70,7 @@ class MoviePlayer(Movie_Audio_Player):
 		self.leavePlayer(self.de_instance)
 
 	def __onClose(self):
-		if not(self.WithoutStopClose):
+		if not (self.WithoutStopClose):
 			self.session.nav.playService(self.lastservice)
 
 # ### File viewer/line editor ###
@@ -211,11 +211,11 @@ class vEditor(Screen, HelpableScreen):
 
 					w = label.instance.size().width()
 					if w <= 0:
-						return 100 # default value
+						return 100  # default value
 					sw = getStringSize(text, label)
 
 					if sw > w:
-						if end: # editation from end
+						if end:  # editation from end
 							txt_len = len(text)
 							for i, idx in enumerate(text):
 								x = text[txt_len - i:]
@@ -223,15 +223,15 @@ class vEditor(Screen, HelpableScreen):
 								if getStringSize(x, label) >= w:
 									return i
 							return i
-						else:	# standard editation
+						else:  # standard editation
 							for i, idx in enumerate(text):
 								x = text[:i]
 								if getStringSize(x, label) >= w:
 									return i
 							return i
-					return w // getStringSize("0", label) # approximate number of characters in label
+					return w // getStringSize("0", label)  # approximate number of characters in label
 				except Exception:
-					return 100 # default value, if missing label "InputBoxWide_input" in vEditor skin
+					return 100  # default value, if missing label "InputBoxWide_input" in vEditor skin
 
 			length = getMaxPosition(editableText, self["InputBoxWide_input"], end=firstpos_end) - 1
 
@@ -312,6 +312,7 @@ class vEditor(Screen, HelpableScreen):
 		self.foundIndexes = []
 		self["h_prev"].hide()
 		self["h_next"].hide()
+
 		def search(text):
 			if text:
 				self.searchText = text
