@@ -365,7 +365,6 @@ class FileCommanderScreen(Screen, HelpableScreen, key_actions):
 			<ePixmap position="1433,880" size="390,33" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/FileCommander/pic/button_blue.png" transparent="1" alphatest="on"/>
 		</screen>"""
 
-
 	def __init__(self, session, path_left=None):
 		# path_left == "" means device list, whereas path_left == None means saved or default value
 
@@ -1678,6 +1677,7 @@ class FileCommanderScreenFileSelect(Screen, HelpableScreen, key_actions):
 
 
 # ## new folder in !Target! ###
+
 
 	def gomakeDir(self):
 		filename = self.TARGETLIST.getFilename()
