@@ -7,15 +7,18 @@ import gettext
 
 __version__ = "1.0"
 
+PluginLanguageDomain = "FileCommander"
+PluginLanguagePath = "Extensions/FileCommander/locale"
+
 
 def localeInit():
 	lang = language.getLanguage()[:2]  # getLanguage returns e.g. "fi_FI" for "language_country"
 	os_environ["LANGUAGE"] = lang  # Enigma doesn't set this (or LC_ALL, LC_MESSAGES, LANG). gettext needs it!
-	gettext.bindtextdomain("FileCommander", resolveFilename(SCOPE_PLUGINS, "Extensions/FileCommander/locale"))
+	gettext.bindtextdomain(PluginLanguageDomain, resolveFilename(SCOPE_PLUGINS, PluginLanguagePath))
 
 
 def _(txt):
-	t = gettext.dgettext("FileCommander", txt)
+	t = gettext.dgettext(PluginLanguageDomain, txt)
 	if t == txt:
 #		print "[FileCommander] fallback to default translation for", txt
 		t = gettext.gettext(txt)
@@ -23,7 +26,7 @@ def _(txt):
 
 
 def ngettext(singular, plural, n):
-	t = gettext.dngettext('FileCommander', singular, plural, n)
+	t = gettext.dngettext(PluginLanguageDomain, singular, plural, n)
 	if t in (singular, plural):
 		t = gettext.ngettext(singular, plural, n)
 	return t
