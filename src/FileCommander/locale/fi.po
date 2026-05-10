@@ -1,0 +1,1761 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-20 16:56+0200\n"
+"PO-Revision-Date: 2026-05-10 19:11+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../addons/key_actions.py:406#, python-format
+msgid ""
+"\"\"\n"
+"\"\"optional parameter:\n"
+"\"\"%s"
+msgstr ""
+"\"\"\n"
+"\"\"valinnainen parametri:\n"
+"\"\"%s"
+
+#: ../addons/key_actions.py:174#, python-format
+msgid " ('%s') finished successefully."
+msgstr " ('%s') valmistui onnistuneesti."
+
+#: ../addons/key_actions.py:160#, python-format
+msgid " ('%s') finished with error messages."
+msgstr " ('%s') päättyi virheilmoituksiin."
+
+#: ../addons/key_actions.py:157#, python-format
+msgid " ('%s') finished with error number [%d]."
+msgstr " ('%s') päättyi virhekoodiin [%d]."
+
+#: ../ui.py:1810 ../ui.py:1845#, python-format
+msgid " - %d element exist! Overwrite"
+msgid_plural " - %d elements exist! Overwrite"
+msgstr[0] " - %d elementti on jo olemassa! Korvataanko?"
+msgstr[1] " - %d elementtiä on jo olemassa! Korvataanko?"
+
+#: ../ui.py:984 ../ui.py:1046
+msgid " - file exist! Overwrite"
+msgstr " - tiedosto on olemassa! Korvataanko"
+
+#: ../ui.py:988 ../ui.py:1050
+msgid " - folder exist! Overwrite"
+msgstr " - kansio on olemassa! Korvataanko"
+
+#: ../addons/key_actions.py:740
+msgid " or save the picture additionally to a file"
+msgstr " tai tallenna kuva lisäksi tiedostoon"
+
+#: ../ui.py:310
+#, python-format
+msgid "%d GB"
+msgstr "%d GB"
+
+#: ../ui.py:308
+#, python-format
+msgid "%d MB"
+msgstr "%d MB"
+
+#: ../ui.py:306
+#, python-format
+msgid "%d kB"
+msgstr "%d kB"
+
+#: ../addons/key_actions.py:139
+msgid "%d.%m.%Y, %H:%M:%S"
+msgstr "%d.%m.%Y, %H:%M:%S"
+
+#: ../addons/key_actions.py:349
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#: ../ui.py:2024
+#, python-format
+msgid "%s (%04o)"
+msgstr "%s (%04o)"
+
+#: ../addons/key_actions.py:332 ../addons/key_actions.py:350
+#: ../addons/key_actions.py:351 ../addons/key_actions.py:352
+#, python-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../addons/unarchiver.py:189
+#, python-format
+msgid "%s - extraction errors."
+msgstr "%s - purkuvirheitä."
+
+#: ../addons/unrar.py:63
+#, python-format
+msgid "%s is password protected."
+msgstr "%s on suojattu salasanalla."
+
+#: ../addons/unarchiver.py:200
+#, python-format
+msgid "%s successfully extracted."
+msgstr "%s purettiin onnistuneesti."
+
+#: ../addons/key_actions.py:442 ../addons/key_actions.py:746
+#, python-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../addons/key_actions.py:547
+#, python-format
+msgid "'%s' not installed and no known package"
+msgstr "'%s' ei ole asennettu eikä tunnettua pakettia löydy"
+
+#: ../ui.py:198 ../ui.py:1406
+msgid ""
+"'Group selection' and 'Invert selection' in Multiselection mode can work "
+"with directories too."
+msgstr ""
+"'Ryhmävalinta' ja 'Käänteinen valinta' toimivat monivalintatilassa myös "
+"hakemistoille."
+
+#: ../ui.py:553
+#, python-format
+msgid "(%d job)"
+msgid_plural "(%d jobs)"
+msgstr[0] "(%d tehtävä)"
+msgstr[1] "(%d tehtävää)"
+
+#: ../ui.py:1542
+msgid "(Selectmode)"
+msgstr "(Valintatila)"
+
+#: ../ui.py:1270 ../ui.py:1871
+msgid "<Receiver>"
+msgstr "<Vastaanotin>"
+
+#: ../addons/key_actions.py:99
+msgid "?"
+msgstr "?"
+
+#: ../ui.py:2028
+msgid "Accessed:"
+msgstr "Käytetty:"
+
+#: ../ui.py:1511 ../ui.py:1513
+msgid "Activate left-hand file list as multi-select source"
+msgstr "Aktivoi vasemman puolen tiedostolista monivalinnan lähteeksi"
+
+#: ../ui.py:501 ../ui.py:503
+msgid "Activate left-hand file list as source"
+msgstr "Aktivoi vasemman puolen tiedostolista lähteeksi"
+
+#: ../ui.py:1510 ../ui.py:1512
+msgid "Activate right-hand file list as multi-select source"
+msgstr "Aktivoi oikean puolen tiedostolista monivalinnan lähteeksi"
+
+#: ../ui.py:500 ../ui.py:502
+msgid "Activate right-hand file list as source"
+msgstr "Aktivoi oikean puolen tiedostolista lähteeksi"
+
+#: ../ui.py:676
+msgid "Add current folder to bookmarks"
+msgstr "Lisää nykyinen kansio kirjanmerkkeihin"
+
+#: ../ui.py:185
+msgid "Add plugin to Extensions menu"
+msgstr "Lisää lisäosa Laajennukset-valikkoon"
+
+#: ../ui.py:184
+msgid "Add plugin to main menu"
+msgstr "Lisää lisäosa päävalikkoon"
+
+#: ../ui.py:672
+msgid "Add selected folder to bookmarks"
+msgstr "Lisää valittu kansio kirjanmerkkeihin"
+
+#: ../ui.py:1617
+#, python-format
+msgid "Add to selection (%s)"
+msgstr "Lisää valintaan (%s)"
+
+#: ../ui.py:154 ../ui.py:155
+msgid "All"
+msgstr "Kaikki"
+
+#: ../ui.py:203 ../ui.py:1408
+msgid ""
+"All files in the directory with the same name as the selected movie will be "
+"copied or moved too."
+msgstr ""
+"Kaikki valitun elokuvan kanssa samannimiset tiedostot hakemistossa "
+"kopioidaan tai siirretään myös."
+
+#: ../ui.py:203 ../ui.py:1408
+msgid "All movie extensions"
+msgstr "Kaikki elokuvatiedostopäätteet"
+
+#: ../addons/key_actions.py:275 ../addons/key_actions.py:296
+#: ../addons/key_actions.py:303 ../addons/key_actions.py:346
+#: ../addons/key_actions.py:351 ../addons/key_actions.py:352
+msgid "B"
+msgstr "B"
+
+#: ../addons/key_actions.py:83
+msgid "Block device"
+msgstr "Lohkolaite"
+
+#: ../ui.py:208
+msgid "CPU priority for script execution"
+msgstr "Skriptien suoritusprioriteetti"
+
+#: ../ui.py:643
+msgid "Calculate file checksums"
+msgstr "Laske tiedostojen tarkistussummat"
+
+#: ../ui.py:210
+msgid "Calculates file checksums."
+msgstr "Laskee tiedostojen tarkistussummat."
+
+#: ../ui.py:206
+msgid "Calculates the size of directory contents for 'Info'."
+msgstr "Laskee hakemiston sisällön koon 'Info'-toimintoa varten."
+
+#: ../addons/unrar.py:52 ../addons/unarchiver.py:143
+#, python-format
+msgid ""
+"Can not run %s: %s.\n"
+"%s may be in a plugin that is not installed."
+msgstr ""
+"Ei voida suorittaa %s: %s.\n"
+"%s saattaa olla lisäosassa, jota ei ole asennettu."
+
+#: ../ui.py:2044
+#, python-format
+msgid "Can't read link contents: %s"
+msgstr "Linkin sisältöä ei voida lukea: %s"
+
+#: ../addons/unarchiver.py:74 ../addons/unarchiver.py:245
+#: ../addons/type_utils.py:369 ../addons/key_actions.py:250
+#: ../addons/key_actions.py:400 ../addons/key_actions.py:616 ../ui.py:216
+#: ../ui.py:1379 ../Console.py:28
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: ../Console.py:131
+msgid "Cancel execution?"
+msgstr "Peruutetaanko suoritus?"
+
+#: ../addons/type_utils.py:365
+msgid "Case sensitive search"
+msgstr "Merkkikokoriippuvainen haku"
+
+#: ../ui.py:196
+msgid "Change buttons for list navigation"
+msgstr "Vaihda listanavigoinnin painikkeita"
+
+#: ../ui.py:646
+msgid "Change execute permissions (755/644)"
+msgstr "Muuta suoritusoikeuksia (755/644)"
+
+#: ../ui.py:103
+msgid "Channel button always changes sides"
+msgstr "Kanavapainike vaihtaa aina puolta"
+
+#: ../addons/key_actions.py:85
+msgid "Character device"
+msgstr "Merkkilaite"
+
+#: ../TaskList.py:52 ../Console.py:83
+msgid "Close"
+msgstr "Sulje"
+
+#: ../ui.py:1403
+msgid "Compare case sensitive"
+msgstr "Vertaa merkkikokoriippuvaisesti"
+
+#: ../ui.py:2034
+msgid "Content size:"
+msgstr "Sisällön koko:"
+
+#: ../ui.py:649
+#, python-format
+msgid "Convert subtitles from '%s' to UTF-8"
+msgstr "Muunna tekstitykset muodosta '%s' UTF‑8:ksi"
+
+#: ../ui.py:485 ../ui.py:1503
+msgid "Copy"
+msgstr "Kopioi"
+
+#: ../ui.py:1846
+#, python-format
+msgid "Copy %d element"
+msgid_plural "Copy %d elements"
+msgstr[0] "Kopioi %d kohde"
+msgstr[1] "Kopioi %d kohdetta"
+
+#: ../ui.py:985
+msgid "Copy file"
+msgstr "Kopioi tiedosto"
+
+#: ../ui.py:513 ../ui.py:633
+msgid "Copy file/directory to target directory"
+msgstr "Kopioi tiedosto/kansio kohdehakemistoon"
+
+#: ../ui.py:1520
+msgid "Copy files/directories to target directory"
+msgstr "Kopioi tiedostot/kansiot kohdehakemistoon"
+
+#: ../ui.py:989
+msgid "Copy folder"
+msgstr "Kopioi kansio"
+
+#: ../ui.py:206
+msgid "Count directory content size"
+msgstr "Laske hakemiston sisällön koko"
+
+#: ../ui.py:505 ../ui.py:1524
+msgid "Counting directory content size while walking (on/off)"
+msgstr "Laske hakemiston sisällön koko hakua suoritettaessa (päälle/pois)"
+
+#: ../ui.py:508 ../ui.py:635
+msgid "Create directory"
+msgstr "Luo hakemisto"
+
+#: ../ui.py:1588
+msgid "Create directory in 'Target' panel"
+msgstr "Luo hakemisto 'Kohde'-paneeliin"
+
+#: ../ui.py:1178
+msgid "Create symlink to file"
+msgstr "Luo symbolinen linkki tiedostoon"
+
+#: ../ui.py:652
+msgid "Create user-named symbolic link"
+msgstr "Luo käyttäjän nimeämä symbolinen linkki"
+
+#: ../ui.py:115 ../ui.py:120
+msgid "Date"
+msgstr "Päiväys"
+
+#: ../ui.py:116 ../ui.py:121
+msgid "Date reverse"
+msgstr "Päiväys käänteinen"
+
+#: ../ui.py:208
+msgid ""
+"Default CPU priority (nice) for executed scripts. This can reduce the load "
+"so that scripts do not interfere with the rest of the system. (higher values "
+"= lower priority)"
+msgstr ""
+"Oletus-CPU-prioriteetti (nice) suoritetuille skripteille. Tämä voi vähentää "
+"kuormitusta, jotta skriptit eivät häiritse muuta järjestelmää. (suurempi "
+"arvo = matalampi prioriteetti)"
+
+#: ../ui.py:239
+msgid "Default Folder"
+msgstr "Oletuskansio"
+
+#: ../ui.py:209
+msgid ""
+"Default I/O priority (ionice) for executed scripts. This can reduce the load "
+"so that scripts do not interfere with the rest of the system. (higher values "
+"= lower priority)"
+msgstr ""
+"Oletus I/O-prioriteetti (ionice) suoritetuille skripteille. Tämä voi "
+"vähentää kuormitusta, jotta skriptit eivät häiritse muuta järjestelmää. "
+"(suurempi arvo = matalampi prioriteetti)"
+
+#: ../ui.py:201
+msgid "Default directory sorting"
+msgstr "Oletushakemistojen lajittelu"
+
+#: ../ui.py:199
+msgid "Default file sorting left"
+msgstr "Oletustiedostojen lajittelu vasemmalla"
+
+#: ../ui.py:200
+msgid "Default file sorting right"
+msgstr "Oletustiedostojen lajittelu oikealla"
+
+#: ../ui.py:202
+msgid "Default folder"
+msgstr "Oletuskansio"
+
+#: ../ui.py:201
+msgid ""
+"Default sorting method for directories in both panels (to apply the changes "
+"FileCommander must be restarted)."
+msgstr ""
+"Oletuslajittelutapa hakemistoille molemmissa paneeleissa (muutokset tulevat "
+"voimaan FileCommanderin uudelleenkäynnistyksen jälkeen)."
+
+#: ../ui.py:199
+msgid "Default sorting method for files in left panel."
+msgstr "Oletuslajittelutapa tiedostoille vasemmassa paneelissa."
+
+#: ../ui.py:200
+msgid "Default sorting method for files in right panel."
+msgstr "Oletuslajittelutapa tiedostoille oikeassa paneelissa."
+
+#: ../addons/type_utils.py:128 ../ui.py:483 ../ui.py:1501
+msgid "Delete"
+msgstr "Poista"
+
+#: ../ui.py:1776
+#, python-format
+msgid "Delete %d element"
+msgid_plural "Delete %d elements"
+msgstr[0] "Poista %d kohde"
+msgstr[1] "Poista %d kohdetta"
+
+#: ../addons/type_utils.py:117
+msgid "Delete current line"
+msgstr "Poista nykyinen rivi"
+
+#: ../ui.py:1016
+msgid "Delete file"
+msgstr "Poista tiedosto"
+
+#: ../ui.py:511 ../ui.py:636
+msgid "Delete file or directory (and all its contents)"
+msgstr "Poista tiedosto tai hakemisto (sekä kaikki sen sisältö)"
+
+#: ../ui.py:1018
+msgid "Delete folder"
+msgstr "Poista kansio"
+
+#: ../ui.py:1518
+msgid "Delete the selected files or directories"
+msgstr "Poista valitut tiedostot tai hakemistot"
+
+#: ../ui.py:1587
+msgid "Deselect All"
+msgstr "Poista kaikki valinnat"
+
+#: ../ui.py:1526
+msgid "Deselect group"
+msgstr "Poista ryhmävalinta"
+
+#: ../ui.py:1585
+msgid "Deselect group..."
+msgstr "Poista ryhmävalinta..."
+
+#: ../ui.py:198 ../ui.py:1406
+msgid "Directories to group selections"
+msgstr "Hakemistot ryhmävalintoihin"
+
+#: ../addons/key_actions.py:84
+msgid "Directory"
+msgstr "Hakemisto"
+
+#: ../ui.py:1229 ../ui.py:1742
+msgid ""
+"Directory cannot be created here on\n"
+"<List of Storage Devices> or <Receiver>.\n"
+"Move selector one line below or change directory."
+msgstr ""
+"Hakemistoa ei voi luoda tähän\n"
+"<Tallennuslaitteiden luetteloon> tai <Vastaanottimeen>.\n"
+"Siirrä valitsin yksi rivi alemmas tai vaihda hakemistoa."
+
+#: ../ui.py:190 ../ui.py:1405
+msgid ""
+"Display filenames in header. It is useful for filenames that are too long."
+msgstr "Näytä tiedostonimet otsakkeessa. Hyödyllinen pitkille tiedostonimille."
+
+#: ../addons/key_actions.py:251
+msgid "Do you want change rights?\n"
+msgstr "Haluatko muuttaa oikeuksia?\n"
+
+#: ../addons/key_actions.py:407
+msgid "Do you want to view or run the script?\n"
+msgstr "Haluatko tarkastella vai suorittaa skriptin?\n"
+
+#: ../addons/type_utils.py:127
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: ../addons/type_utils.py:113 ../addons/type_utils.py:114
+msgid "Edit current line"
+msgstr "Muokkaa nykyistä riviä"
+
+#: ../addons/type_utils.py:243
+msgid "Edit line "
+msgstr "Muokkaa riviä "
+
+#: ../ui.py:651
+msgid "Edit new file"
+msgstr "Muokkaa uutta tiedostoa"
+
+#: ../ui.py:195
+msgid "Edit position is the line end"
+msgstr "Muokkauskohta on rivin lopussa"
+
+#: ../ui.py:516 ../ui.py:517 ../ui.py:638
+msgid "Enter multi-file selection mode"
+msgstr "Siirry monivalintatilaan"
+
+#: ../ui.py:850
+msgid "Error"
+msgstr "Virhe"
+
+#: ../ui.py:1241 ../ui.py:1754
+#, python-format
+msgid ""
+"Error creating directory %s:\n"
+"%s"
+msgstr ""
+"Virhe luotaessa hakemistoa %s:\n"
+"%s"
+
+#: ../ui.py:1219
+#, python-format
+msgid ""
+"Error creating file %s:\n"
+"%s"
+msgstr ""
+"Virhe luotaessa tiedostoa %s:\n"
+"%s"
+
+#: ../ui.py:1159
+#, python-format
+msgid ""
+"Error linking %s to %s:\n"
+"%s"
+msgstr ""
+"Virhe linkitettäessä %s → %s:\n"
+"%s"
+
+#: ../ui.py:1117
+#, python-format
+msgid ""
+"Error renaming %s to %s:\n"
+"%s"
+msgstr ""
+"Virhe nimettäessä %s → %s:\n"
+"%s"
+
+#: ../addons/type_utils.py:246
+msgid "Error..."
+msgstr "Virhe..."
+
+#: ../Console.py:89 ../Console.py:90
+msgid "Execution finished!!"
+msgstr "Suoritus valmis!!"
+
+#: ../Console.py:68 ../Console.py:69
+msgid "Execution progress:"
+msgstr "Suorituksen edistyminen:"
+
+#: ../addons/type_utils.py:126
+msgid "Exit"
+msgstr "Poistu"
+
+#: ../addons/type_utils.py:115 ../addons/type_utils.py:116
+msgid "Exit editor and write changes (if any)"
+msgstr "Poistu editorista ja tallenna muutokset (jos on)"
+
+#: ../addons/type_utils.py:57
+msgid "Exit movie player?"
+msgstr "Poistu elokuvatoistimesta?"
+
+#: ../addons/type_utils.py:420
+msgid "Exit picture viewer"
+msgstr "Poistu kuvakatselimesta"
+
+#: ../addons/key_actions.py:86
+msgid "FIFO"
+msgstr "FIFO"
+
+#: ../plugin.py:14 ../addons/type_utils.py:177
+msgid "File Commander"
+msgstr "File Commander"
+
+#: ../addons/type_utils.py:104
+msgid "File Commander - Addon File-Viewer"
+msgstr "File Commander – Lisäosa: Tiedostonäkymä"
+
+#: ../addons/type_utils.py:382
+msgid "File Commander - Addon File-Viewer Settings"
+msgstr "File Commander – Tiedostonäkymän asetukset"
+
+#: ../addons/type_utils.py:42
+msgid "File Commander - Addon Mediaplayer"
+msgstr "File Commander – Lisäosa: Mediasoitin"
+
+#: ../addons/key_actions.py:68
+msgid "File Commander - Addon Movieplayer"
+msgstr "File Commander – Lisäosa: Elokuvatoistin"
+
+#: ../ui.py:878
+msgid "File Commander - all Task's completed!"
+msgstr "File Commander – kaikki tehtävät suoritettu!"
+
+#: ../addons/unarchiver.py:20
+msgid "File Commander - generalised archive handler"
+msgstr "File Commander – yleinen arkistokäsittelijä"
+
+#: ../addons/gz.py:16
+msgid "File Commander - gzip Addon"
+msgstr "File Commander – gzip-lisäosa"
+
+#: ../addons/ipk.py:24
+msgid "File Commander - ipk Addon"
+msgstr "File Commander – ipk-lisäosa"
+
+#: ../addons/tar.py:11
+msgid "File Commander - tar Addon"
+msgstr "File Commander – tar-lisäosa"
+
+#: ../addons/unrar.py:15
+msgid "File Commander - unrar Addon"
+msgstr "File Commander – unrar-lisäosa"
+
+#: ../addons/unzip.py:16
+msgid "File Commander - unzip Addon"
+msgstr "File Commander – unzip-lisäosa"
+
+#: ../ui.py:1204
+msgid ""
+"File cannot be created on\n"
+"<List of Storage Devices> or <Receiver>.\n"
+"Change directory, please."
+msgstr ""
+"Tiedostoa ei voi luoda\n"
+"<Tallennuslaitteiden luetteloon> tai <Vastaanottimeen>.\n"
+"Vaihda hakemistoa."
+
+#: ../ui.py:210
+msgid "File checksums/hashes"
+msgstr "Tiedostojen tarkistussummat/hashit"
+
+#: ../addons/key_actions.py:692 ../addons/key_actions.py:793
+#, python-format
+msgid "File not found: %s"
+msgstr "Tiedostoa ei löydy: %s"
+
+#: ../FileTransfer.py:96
+msgid "File transfer was cancelled by user"
+msgstr "Tiedostonsiirto peruttiin käyttäjän toimesta"
+
+#: ../Console.py:181
+#, python-format
+msgid "File write error: '%s'"
+msgstr "Tiedoston kirjoitusvirhe: '%s'"
+
+#: ../ui.py:515 ../ui.py:637 ../ui.py:1522 ../ui.py:1975
+msgid "File/Directory Status Information"
+msgstr "Tiedoston/hakemiston tilatiedot"
+
+#: ../ui.py:190 ../ui.py:1405
+msgid "Filenames in header"
+msgstr "Tiedostonimet otsakkeessa"
+
+#: ../ui.py:204
+msgid ""
+"Filter extension for 'My Extension' setting of 'Filter extension'. Use the "
+"extension name without a '.'."
+msgstr ""
+"Suodata tiedostopääte 'Oma pääte' -asetusta varten. Käytä päätettä ilman "
+"pistettä."
+
+#: ../ui.py:205
+msgid "Filter extension, (*) appears in title"
+msgstr "Suodatettava tiedostopääte, (*) näkyy otsikossa"
+
+#: ../ui.py:205
+msgid "Filter visible file classes by extension."
+msgstr "Suodata näkyvät tiedostotyypit päätteen perusteella."
+
+#: ../addons/key_actions.py:275
+msgid "GB"
+msgstr "GB"
+
+#: ../ui.py:658
+msgid "Go to bookmarked folder"
+msgstr "Siirry kirjanmerkittyyn kansioon"
+
+#: ../ui.py:654
+msgid "Go to default directory"
+msgstr "Siirry oletushakemistoon"
+
+#: ../addons/type_utils.py:120
+msgid "Go to end of file"
+msgstr "Siirry tiedoston loppuun"
+
+#: ../ui.py:653
+msgid "Go to parent directory"
+msgstr "Siirry ylempään hakemistoon"
+
+#: ../addons/type_utils.py:119
+msgid "Go to start of file"
+msgstr "Siirry tiedoston alkuun"
+
+#: ../ui.py:2023
+msgid "Group:"
+msgstr "Ryhmä:"
+
+#: ../ui.py:209
+msgid "I/O priority for script execution"
+msgstr "I/O-prioriteetti skriptien suorittamiseen"
+
+#: ../ui.py:195
+msgid ""
+"If editing a file, you can set the cursor start position at end or begin of "
+"the line."
+msgstr "Tiedostoa muokattaessa voit asettaa kursorin rivin alkuun tai loppuun."
+
+#: ../ui.py:197 ../ui.py:1407
+msgid "In multi-selection mode moves cursor to next item after marking."
+msgstr ""
+"Monivalintatilassa siirtää kursorin seuraavaan kohteeseen merkinnän jälkeen."
+
+#: ../ui.py:2031
+msgid "Inode:"
+msgstr "Inode:"
+
+#: ../addons/type_utils.py:129
+msgid "Insert"
+msgstr "Lisää"
+
+#: ../addons/type_utils.py:118
+msgid "Insert line before current line"
+msgstr "Lisää rivi nykyisen rivin yläpuolelle"
+
+#: ../addons/ipk.py:37
+msgid "Install"
+msgstr "Asenna"
+
+#: ../addons/key_actions.py:545
+#, python-format
+msgid "Install '%s' and enable this operation"
+msgstr "Asenna '%s' ja ota tämä toiminto käyttöön"
+
+#: ../addons/ipk.py:59
+msgid "Installing Plugin ..."
+msgstr "Asennetaan lisäosaa..."
+
+#: ../ui.py:1589
+msgid "Invert Selection"
+msgstr "Käänteinen valinta"
+
+#: ../ui.py:1504 ../ui.py:1521
+msgid "Invert selection"
+msgstr "Käännä valinta"
+
+#: ../addons/key_actions.py:601
+msgid "It is not possible to calculate hashes on <List of Storage Devices>"
+msgstr "Hash-arvoja ei voi laskea <Tallennuslaitteiden luettelossa>"
+
+#: ../addons/key_actions.py:245
+msgid "It is not possible to change the file mode of <List of Storage Devices>"
+msgstr "Tiedoston tilaa ei voi muuttaa <Tallennuslaitteiden luettelossa>"
+
+#: ../ui.py:1993
+msgid "It is not possible to get the file status of <List of Storage Devices>"
+msgstr "Tiedoston tilaa ei voi hakea <Tallennuslaitteiden luettelossa>"
+
+#: ../addons/key_actions.py:496
+#, python-format
+msgid "It is not possible to run '%s' on <List of Storage Devices>"
+msgstr "'%s' ei ole suoritettavissa <Tallennuslaitteiden luettelossa>"
+
+#: ../ui.py:1081
+msgid "It's not possible to rename the filesystem root."
+msgstr "Tiedostojärjestelmän juurta ei voi nimetä uudelleen."
+
+#: ../addons/key_actions.py:275
+msgid "KB"
+msgstr "KB"
+
+#: ../ui.py:498
+msgid "Leave File Commander"
+msgstr "Poistu File Commanderista"
+
+#: ../ui.py:1509 ../ui.py:1529 ../ui.py:1530
+msgid "Leave multi-select mode"
+msgstr "Poistu monivalintatilasta"
+
+#: ../ui.py:2040
+msgid "Link target:"
+msgstr "Linkin kohde:"
+
+#: ../ui.py:2030
+msgid "Links:"
+msgstr "Linkit:"
+
+#: ../FileList.py:191 ../FileList.py:460 ../FileList.py:464
+msgid "List of Storage Devices"
+msgstr "Tallennuslaitteiden luettelo"
+
+#: ../Console.py:178
+msgid "Load"
+msgstr "Lataa"
+
+#: ../addons/key_actions.py:275
+msgid "MB"
+msgstr "MB"
+
+#: ../ui.py:185
+msgid "Make FileCommander accessible from the Extensions menu."
+msgstr "Tee FileCommanderista käytettävissä Laajennukset-valikosta."
+
+#: ../ui.py:184
+msgid "Make FileCommander accessible from the main menu."
+msgstr "Tee FileCommanderista käytettävissä päävalikosta."
+
+#: ../addons/type_utils.py:121
+msgid "Menu..."
+msgstr "Valikko..."
+
+#: ../ui.py:2029
+msgid "Metadata changed:"
+msgstr "Metadata muuttunut:"
+
+#: ../addons/key_actions.py:298
+#, python-format
+msgid "Mode %s (%04o)"
+msgstr "Tila %s (%04o)"
+
+#: ../ui.py:2027
+msgid "Modified:"
+msgstr "Muokattu:"
+
+#: ../ui.py:484 ../ui.py:1502
+msgid "Move"
+msgstr "Siirrä"
+
+#: ../ui.py:1811
+#, python-format
+msgid "Move %d element"
+msgid_plural "Move %d elements"
+msgstr[0] "Siirrä %d kohde"
+msgstr[1] "Siirrä %d kohdetta"
+
+#: ../ui.py:519 ../ui.py:1515
+msgid "Move down list"
+msgstr "Siirry listassa alas"
+
+#: ../ui.py:1047
+msgid "Move file"
+msgstr "Siirrä tiedosto"
+
+#: ../ui.py:512 ../ui.py:634
+msgid "Move file/directory to target directory"
+msgstr "Siirrä tiedosto/kansio kohdehakemistoon"
+
+#: ../ui.py:1519
+msgid "Move files/directories to target directory"
+msgstr "Siirrä tiedostot/kansiot kohdehakemistoon"
+
+#: ../ui.py:1051
+msgid "Move folder"
+msgstr "Siirrä kansio"
+
+#: ../ui.py:197 ../ui.py:1407
+msgid "Move selector to next item"
+msgstr "Siirrä valitsin seuraavaan kohteeseen"
+
+#: ../ui.py:1527
+msgid "Move selector to next item (on/off)"
+msgstr "Siirrä valitsin seuraavaan kohteeseen (päälle/pois)"
+
+#: ../ui.py:518 ../ui.py:1514
+msgid "Move up list"
+msgstr "Siirry listassa ylös"
+
+#: ../ui.py:102
+msgid "Movie"
+msgstr "Elokuva"
+
+#: ../ui.py:1424
+msgid "MultiSelection Settings"
+msgstr "Monivalinnan asetukset"
+
+#: ../ui.py:102
+msgid "Music"
+msgstr "Musiikki"
+
+#: ../ui.py:102
+msgid "My Extension"
+msgstr "Oma pääte"
+
+#: ../ui.py:204
+msgid "My extension"
+msgstr "Oma pääte"
+
+#: ../ui.py:113 ../ui.py:118
+msgid "Name"
+msgstr "Nimi"
+
+#: ../ui.py:114 ../ui.py:119
+msgid "Name reverse"
+msgstr "Nimi käänteinen"
+
+#: ../ui.py:1231 ../ui.py:1744
+msgid "New folder"
+msgstr "Uusi kansio"
+
+#: ../addons/key_actions.py:734 ../ui.py:103 ../ui.py:154 ../ui.py:155
+msgid "No"
+msgstr "Ei"
+
+#: ../addons/unarchiver.py:152
+msgid "No files found."
+msgstr "Tiedostoja ei löytynyt."
+
+#: ../addons/key_actions.py:592
+msgid "No hash calculations configured"
+msgstr "Hash-laskentaa ei ole määritetty"
+
+#: ../addons/key_actions.py:758
+#, python-format
+msgid "No viewer installed for this file type: %s"
+msgstr "Tälle tiedostotyypille ei ole asennettu katselinta: %s"
+
+#: ../addons/key_actions.py:596
+#, python-format
+msgid "None of the hash programs for the hashes %s are available"
+msgstr "Yhtään hash-ohjelmaa hash-tyypeille %s ei ole käytettävissä"
+
+#: ../addons/key_actions.py:253
+msgid "Not allowed with folders"
+msgstr "Ei sallittu kansioille"
+
+#: ../ui.py:197 ../ui.py:1407
+msgid ""
+"Note - for switching this option in multi-selection mode you can use key '6' "
+"too."
+msgstr ""
+"Huom. monivalintatilassa tämän asetuksen voi vaihtaa myös näppäimellä '6'."
+
+#: ../ui.py:206
+msgid ""
+"Note - independently of setting this item, there in list you can turn on/"
+"turn off counting and displaying directory content size with key '1'."
+msgstr ""
+"Huom. tästä asetuksesta riippumatta hakemiston koon laskennan voi kytkeä "
+"päälle/pois listassa näppäimellä '1'."
+
+#: ../ui.py:193
+msgid "Number of lines in script messages"
+msgstr "Skriptiviestien rivimäärä"
+
+#: ../addons/unarchiver.py:75 ../addons/unarchiver.py:246
+#: ../addons/type_utils.py:370 ../ui.py:217 ../ui.py:1380
+msgid "OK"
+msgstr "OK"
+
+#: ../ui.py:2032
+msgid "On device:"
+msgstr "Laitteella:"
+
+#: ../ui.py:1507
+msgid "Open actions menu"
+msgstr "Avaa toimintovalikko"
+
+#: ../ui.py:499
+msgid "Open settings/actions menu"
+msgstr "Avaa asetukset/toiminnot-valikko"
+
+#: ../plugin.py:41
+msgid "Open with File Commander"
+msgstr "Avaa File Commanderilla"
+
+#: ../ui.py:212
+msgid "Original subtitles codepage"
+msgstr "Tekstitysten alkuperäinen merkistökoodaus"
+
+#: ../ui.py:212
+msgid "Original subtitles codepage for conversion to UTF-8."
+msgstr "Tekstitysten alkuperäinen merkistökoodaus UTF‑8-muunnosta varten."
+
+#: ../addons/type_utils.py:243
+msgid "Original:"
+msgstr "Alkuperäinen:"
+
+#: ../ui.py:2022
+msgid "Owner:"
+msgstr "Omistaja:"
+
+#: ../ui.py:521 ../ui.py:1517
+msgid "Page down list"
+msgstr "Sivu alas listassa"
+
+#: ../ui.py:520 ../ui.py:1516
+msgid "Page up list"
+msgstr "Sivu ylös listassa"
+
+#: ../FileList.py:195 ../FileList.py:464
+msgid "Parent Directory"
+msgstr "Ylempi hakemisto"
+
+#: ../Console.py:155
+msgid "Path to save not exist: '/tmp/'"
+msgstr "Tallennuspolkua ei ole olemassa: '/tmp/'"
+
+#: ../ui.py:2024
+msgid "Permissions:"
+msgstr "Oikeudet:"
+
+#: ../ui.py:102
+msgid "Pictures"
+msgstr "Kuvat"
+
+#: ../addons/key_actions.py:616
+msgid "Play folder"
+msgstr "Toista kansio"
+
+#: ../addons/key_actions.py:616
+msgid "Play title"
+msgstr "Toista nimike"
+
+#: ../ui.py:497
+msgid "Play/view/edit/install/extract/run file or enter directory"
+msgstr ""
+"Toista/näytä/muokkaa/asenna/pura/suorita tiedosto tai siirry hakemistoon"
+
+#: ../ui.py:1231 ../ui.py:1744
+msgid "Please enter name of the new directory"
+msgstr "Anna uuden hakemiston nimi"
+
+#: ../ui.py:1140
+msgid "Please enter name of the new symlink"
+msgstr "Anna uuden symbolisen linkin nimi"
+
+#: ../addons/unrar.py:63
+msgid "Please enter password"
+msgstr "Anna salasana"
+
+#: ../ui.py:1085
+msgid "Please enter the new directory name"
+msgstr "Anna uuden hakemiston nimi"
+
+#: ../ui.py:1083
+msgid "Please enter the new file name"
+msgstr "Anna uuden tiedoston nimi"
+
+#: ../addons/type_utils.py:430
+msgid "Please wait, Loading image."
+msgstr "Odota, kuvaa ladataan."
+
+#: ../ui.py:1400
+msgid "Pre-fill first 'n' filename chars to virtual keyboard"
+msgstr "Esitäytä virtuaalinäppäimistö tiedostonimen alun 'n' merkillä"
+
+#: ../ui.py:1402
+msgid "Pre-fill last 'n' filename chars to virtual keyboard"
+msgstr "Esitäytä virtuaalinäppäimistö tiedostonimen lopun 'n' merkillä"
+
+#: ../ui.py:202
+msgid ""
+"Press 'OK' and select from list or bookmarks directory for 'Go to default "
+"directory'. Eventually you can manage plugin's bookmarks here too."
+msgstr ""
+"Paina 'OK' ja valitse listasta tai kirjanmerkeistä hakemisto 'Siirry "
+"oletushakemistoon' -toimintoa varten. Voit myös hallita lisäosan "
+"kirjanmerkkejä täällä."
+
+#: ../addons/key_actions.py:566
+#, python-format
+msgid ""
+"Program '%s' is installed.\n"
+"The package containing this program isn't known, so it can't be uninstalled."
+msgstr ""
+"Ohjelma '%s' on asennettu.\n"
+"Ohjelman sisältävää pakettia ei tunneta, joten sitä ei voi poistaa."
+
+#: ../addons/key_actions.py:563
+#, python-format
+msgid ""
+"Program '%s' needs to be installed to run the '%s' action.\n"
+"Uninstall the '%s' package to uninstall the program?"
+msgstr ""
+"Toiminnon '%s' suorittaminen vaatii ohjelman '%s' asennuksen.\n"
+"Poistetaanko paketti '%s' ohjelman poistamiseksi?"
+
+#: ../addons/key_actions.py:488
+#, python-format
+msgid ""
+"Program '%s' needs to be installed to run this action.\n"
+"Install the '%s' package to install the program?"
+msgstr ""
+"Tämän toiminnon suorittaminen vaatii ohjelman '%s' asennuksen.\n"
+"Asennetaanko paketti '%s' ohjelman asentamiseksi?"
+
+#: ../addons/key_actions.py:490
+#, python-format
+msgid ""
+"Program '%s' not installed.\n"
+"The package containing this program isn't known."
+msgstr ""
+"Ohjelmaa '%s' ei ole asennettu.\n"
+"Ohjelman sisältävää pakettia ei tunneta."
+
+#: ../ui.py:102
+msgid "Records"
+msgstr "Tallenteet"
+
+#: ../ui.py:504 ../ui.py:639 ../ui.py:1523
+msgid "Refresh screen"
+msgstr "Päivitä näyttö"
+
+#: ../addons/key_actions.py:82
+msgid "Regular file"
+msgstr "Tavallinen tiedosto"
+
+#: ../ui.py:676
+msgid "Remove current folder from bookmarks"
+msgstr "Poista nykyinen kansio kirjanmerkeistä"
+
+#: ../ui.py:1619
+#, python-format
+msgid "Remove from selection (%s)"
+msgstr "Poista valinnasta (%s)"
+
+#: ../ui.py:672
+msgid "Remove selected folder from bookmarks"
+msgstr "Poista valittu kansio kirjanmerkeistä"
+
+#: ../ui.py:486
+msgid "Rename"
+msgstr "Nimeä uudelleen"
+
+#: ../ui.py:506 ../ui.py:514 ../ui.py:628
+msgid "Rename file/directory"
+msgstr "Nimeä tiedosto/hakemisto uudelleen"
+
+#: ../ui.py:491 ../ui.py:493
+msgid "Reverse left file sorting"
+msgstr "Käännä vasemman paneelin lajittelu"
+
+#: ../ui.py:490 ../ui.py:494
+msgid "Reverse right file sorting"
+msgstr "Käännä oikean paneelin lajittelu"
+
+#: ../addons/key_actions.py:542
+#, python-format
+msgid "Run '%s' command"
+msgstr "Suorita '%s'-komento"
+
+#: ../addons/key_actions.py:157 ../addons/key_actions.py:160
+#: ../addons/key_actions.py:174 ../addons/key_actions.py:400
+#: ../addons/key_actions.py:456 ../ui.py:561 ../ui.py:874 ../TaskList.py:76
+msgid "Run script"
+msgstr "Suorita skripti"
+
+#: ../addons/key_actions.py:400
+msgid "Run script in background"
+msgstr "Suorita skripti taustalla"
+
+#: ../addons/key_actions.py:404
+msgid "Run script with optional parameter"
+msgstr "Suorita skripti valinnaisella parametrilla"
+
+#: ../addons/key_actions.py:405
+msgid "Run script with optional parameter in background"
+msgstr "Suorita skripti valinnaisella parametrilla taustalla"
+
+#: ../Console.py:84
+msgid "Save"
+msgstr "Tallenna"
+
+#: ../ui.py:188
+msgid "Save cursor position"
+msgstr "Tallenna kursorin sijainti"
+
+#: ../ui.py:188
+msgid "Save cursor position in active panel."
+msgstr "Tallenna kursorin sijainti aktiivisessa paneelissa."
+
+#: ../ui.py:186
+msgid "Save left folder on exit"
+msgstr "Tallenna vasen kansio poistuttaessa"
+
+#: ../ui.py:187
+msgid "Save right folder on exit"
+msgstr "Tallenna oikea kansio poistuttaessa"
+
+#: ../Console.py:142
+#, python-format
+msgid ""
+"Save the commands and the output to a file?\n"
+"('%s')"
+msgstr ""
+"Tallennetaanko komennot ja tuloste tiedostoon?\n"
+"('%s')"
+
+#: ../ui.py:186
+msgid "Save the left directory list location on exit."
+msgstr "Tallenna vasemman hakemistoluettelon sijainti poistuttaessa."
+
+#: ../ui.py:187
+msgid "Save the right folder list location on exit."
+msgstr "Tallenna oikean hakemistoluettelon sijainti poistuttaessa."
+
+#: ../addons/key_actions.py:413
+#, python-format
+msgid "Script '%s' must have read permission to be able to run it"
+msgstr "Skriptillä '%s' täytyy olla lukuoikeus, jotta se voidaan suorittaa"
+
+#: ../ui.py:1397
+msgid "Search in group selection by"
+msgstr "Hae ryhmävalinnassa perusteella"
+
+#: ../addons/type_utils.py:154
+msgid "Search text"
+msgstr "Hae tekstiä"
+
+#: ../addons/type_utils.py:340
+#, python-format
+msgid "Search text (%s):"
+msgstr "Hae tekstiä (%s):"
+
+#: ../addons/type_utils.py:154
+#, python-format
+msgid "Search text in file (%s)."
+msgstr "Hae tekstiä tiedostosta (%s)."
+
+#: ../ui.py:1508
+msgid "Select (source list) or enter directory (target list)"
+msgstr "Valitse (lähdelista) tai siirry hakemistoon (kohdelista)"
+
+#: ../ui.py:1586
+msgid "Select All"
+msgstr "Valitse kaikki"
+
+#: ../ui.py:731
+msgid "Select a path"
+msgstr "Valitse polku"
+
+#: ../addons/type_utils.py:158
+msgid "Select action:"
+msgstr "Valitse toiminto:"
+
+#: ../ui.py:1525
+msgid "Select group"
+msgstr "Valitse ryhmä"
+
+#: ../ui.py:1584
+msgid "Select group..."
+msgstr "Valitse ryhmä..."
+
+#: ../ui.py:679 ../ui.py:1592
+msgid "Select operation:"
+msgstr "Valitse toiminto:"
+
+#: ../ui.py:177
+msgid "Select your personal settings:"
+msgstr "Valitse omat asetuksesi:"
+
+#: ../addons/key_actions.py:250
+msgid "Set archive mode (644)"
+msgstr "Aseta arkistotila (644)"
+
+#: ../addons/key_actions.py:250
+msgid "Set executable mode (755)"
+msgstr "Aseta suoritustila (755)"
+
+#: ../ui.py:193
+msgid ""
+"Set for 'stout' and 'sterr' the number of lines in script info or script "
+"error messages."
+msgstr "Aseta 'stout' ja 'sterr' -viesteille näytettävien rivien määrä."
+
+#: ../ui.py:1403
+msgid ""
+"Sets whether to distinguish between uper case and lower case for searching."
+msgstr "Määrittää, erotellaanko isot ja pienet kirjaimet haussa."
+
+#: ../ui.py:229
+msgid "Settings"
+msgstr "Asetukset"
+
+#: ../addons/type_utils.py:156 ../ui.py:657 ../ui.py:1590
+msgid "Settings..."
+msgstr "Asetukset..."
+
+#: ../addons/key_actions.py:741
+#, python-format
+msgid ""
+"Show '%s' as picture%s?\n"
+"The current service must be interrupted!"
+msgstr ""
+"Näytetäänkö '%s' kuvana%s?\n"
+"Nykyinen palvelu täytyy keskeyttää!"
+
+#: ../ui.py:192
+msgid "Show Script completed message"
+msgstr "Näytä skriptin valmistumisviesti"
+
+#: ../ui.py:191
+msgid "Show Task's completed message"
+msgstr "Näytä tehtävien valmistumisviesti"
+
+#: ../addons/key_actions.py:735
+msgid "Show as Picture (press any key to close)"
+msgstr "Näytä kuvana (sulje painamalla mitä tahansa näppäintä)"
+
+#: ../addons/key_actions.py:739
+#, python-format
+msgid "Show as Picture and save as file ('%s')"
+msgstr "Näytä kuvana ja tallenna tiedostoksi ('%s')"
+
+#: ../addons/ipk.py:36
+msgid "Show contents of ipk file"
+msgstr "Näytä ipk-tiedoston sisältö"
+
+#: ../addons/unrar.py:30
+msgid "Show contents of rar file"
+msgstr "Näytä rar-tiedoston sisältö"
+
+#: ../addons/tar.py:21
+msgid "Show contents of tar or compressed tar file"
+msgstr "Näytä tar- tai pakatun tar-tiedoston sisältö"
+
+#: ../addons/unzip.py:26
+msgid "Show contents of zip file"
+msgstr "Näytä zip-tiedoston sisältö"
+
+#: ../ui.py:189
+msgid "Show directories first"
+msgstr "Näytä hakemistot ensin"
+
+#: ../ui.py:189
+msgid ""
+"Show directories on first or last positions in panel (to apply the changes "
+"FileCommander must be restarted)."
+msgstr ""
+"Näytä hakemistot paneelin alussa tai lopussa (vaatii FileCommanderin "
+"uudelleenkäynnistyksen)."
+
+#: ../addons/type_utils.py:424
+msgid "Show image information"
+msgstr "Näytä kuvan tiedot"
+
+#: ../ui.py:191
+msgid ""
+"Show message if FileCommander is not running and all Task's are completed."
+msgstr ""
+"Näytä viesti, jos FileCommander ei ole käynnissä ja kaikki tehtävät ovat "
+"valmiit."
+
+#: ../ui.py:192
+msgid ""
+"Show message if a background script ends successfully. Has 'stout', then "
+"this is displayed as additional info."
+msgstr ""
+"Näytä viesti, kun taustaskripti päättyy onnistuneesti. Jos skriptillä on "
+"'stout', se näytetään lisätietona."
+
+#: ../addons/type_utils.py:422
+msgid "Show next picture"
+msgstr "Näytä seuraava kuva"
+
+#: ../addons/type_utils.py:421
+msgid "Show previous picture"
+msgstr "Näytä edellinen kuva"
+
+#: ../ui.py:509 ../ui.py:640 ../ui.py:1528
+msgid "Show task list"
+msgstr "Näytä tehtävälista"
+
+#: ../ui.py:194
+msgid "Show unknown extension as text"
+msgstr "Näytä tuntematon tiedostopääte tekstinä"
+
+#: ../ui.py:194
+msgid "Show unknown file extensions with 'Addon File-Viewer'."
+msgstr "Näytä tuntemattomat tiedostopäätteet 'Addon File-Viewer' -toiminnolla."
+
+#: ../ui.py:122
+msgid "Size"
+msgstr "Koko"
+
+#: ../ui.py:123
+msgid "Size reverse"
+msgstr "Koko käänteinen"
+
+#: ../ui.py:2026
+msgid "Size:"
+msgstr "Koko:"
+
+#: ../addons/key_actions.py:80
+msgid "Socket"
+msgstr "Pistoke"
+
+#: ../ui.py:522
+msgid "Sorting left files by name, date or size"
+msgstr ""
+"Lajittelee vasemman paneelin tiedostot nimen, päivämäärän tai koon mukaan"
+
+#: ../ui.py:525
+msgid "Sorting right files by name, date or size"
+msgstr ""
+"Lajittelee oikean paneelin tiedostot nimen, päivämäärän tai koon mukaan"
+
+#: ../addons/type_utils.py:423
+msgid "Start/stop slide show"
+msgstr "Käynnistä/pysäytä diaesitys"
+
+#: ../ui.py:728
+msgid "Storage devices"
+msgstr "Tallennuslaitteet"
+
+#: ../ui.py:207
+msgid "Swap buttons for reverse file sorting"
+msgstr "Vaihda painikkeet käänteiselle tiedostolajittelulle"
+
+#: ../ui.py:196
+msgid ""
+"Swap buttons right/left with channel +/- or the channel button changed "
+"always the side."
+msgstr ""
+"Vaihda oikea/vasen -painikkeet kanava +/- -painikkeilla tai kanavapainike "
+"vaihtaa aina puolta."
+
+#: ../addons/key_actions.py:81
+msgid "Symbolic link"
+msgstr "Symbolinen linkki"
+
+#: ../ui.py:1180
+msgid "Symlink to "
+msgstr "Symbolinen linkki kohteeseen "
+
+#: ../addons/key_actions.py:279
+msgid "TB"
+msgstr "TB"
+
+#: ../TaskList.py:88
+msgid "Task list"
+msgstr "Tehtävälista"
+
+#: ../addons/type_utils.py:337
+msgid "Text not found."
+msgstr "Tekstiä ei löytynyt."
+
+#: ../addons/type_utils.py:365
+msgid "Text searching as case sensitive or case insensitive."
+msgstr "Tekstihaku kirjainkoon mukaan tai siitä riippumatta."
+
+#: ../addons/type_utils.py:460
+msgid ""
+"The Image Viewer component of the File Commander requires the PicturePlayer "
+"extension. Install PicturePlayer to enable this operation."
+msgstr ""
+"File Commanderin kuvakatselinkomponentti vaatii PicturePlayer-lisäosan. "
+"Asenna PicturePlayer käyttääksesi tätä toimintoa."
+
+#: ../addons/type_utils.py:174
+msgid "The authors are NOT RESPONSIBLE"
+msgstr "Tekijät EIVÄT OLE VASTUUSSA"
+
+#: ../addons/key_actions.py:799
+msgid ""
+"The function has been interrupted.\n"
+"Don't press any key until the picture from mvi-file is displayed!"
+msgstr ""
+"Toiminto on keskeytetty.\n"
+"Älä paina mitään näppäintä ennen kuin mvi-tiedoston kuva näkyy!"
+
+#: ../addons/key_actions.py:605
+msgid "The hash of a directory can't be calculated."
+msgstr "Hakemiston hash-arvoa ei voi laskea."
+
+#: ../addons/type_utils.py:245
+msgid "This line is not editable!"
+msgstr "Tätä riviä ei voi muokata!"
+
+#: ../ui.py:211
+msgid "Time between slides in image viewer slideshow."
+msgstr "Aika diojen välillä kuvakatselimen diaesityksessä."
+
+#: ../ui.py:211
+msgid "Time for Slideshow"
+msgstr "Diaesityksen aikaväli"
+
+#: ../addons/type_utils.py:123
+msgid "To next found text"
+msgstr "Seuraava löydetty teksti"
+
+#: ../addons/type_utils.py:122
+msgid "To previous found text"
+msgstr "Edellinen löydetty teksti"
+
+#: ../ui.py:1206
+msgid "Type the name for the new file"
+msgstr "Anna uuden tiedoston nimi"
+
+#: ../ui.py:2021
+msgid "Type:"
+msgstr "Tyyppi:"
+
+#: ../addons/key_actions.py:587
+#, python-format
+msgid "Uninstall '%s' package and disable '%s'"
+msgstr "Poista paketti '%s' ja poista '%s' käytöstä"
+
+#: ../addons/key_actions.py:87
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: ../addons/key_actions.py:133
+#, python-format
+msgid "Unknown group: %d"
+msgstr "Tuntematon ryhmä: %d"
+
+#: ../addons/key_actions.py:125
+#, python-format
+msgid "Unknown user: %d"
+msgstr "Tuntematon käyttäjä: %d"
+
+#: ../addons/unrar.py:32 ../addons/unrar.py:33 ../addons/unzip.py:28
+#: ../addons/unzip.py:29 ../addons/gz.py:27 ../addons/gz.py:28
+#: ../addons/tar.py:23 ../addons/tar.py:24
+#, python-format
+msgid "Unpack to %s"
+msgstr "Pura kohteeseen %s"
+
+#: ../addons/unrar.py:31 ../addons/unzip.py:27 ../addons/gz.py:26
+#: ../addons/tar.py:22
+msgid "Unpack to current folder"
+msgstr "Pura nykyiseen kansioon"
+
+#: ../ui.py:207
+msgid ""
+"Useful if remote controller having 'pause' button left to 'stop' (to apply "
+"the changes FileCommander must be restarted)."
+msgstr ""
+"Hyödyllinen, jos kaukosäätimessä 'pause' on 'stop'-painikkeen vasemmalla "
+"puolella (vaatii FileCommanderin uudelleenkäynnistyksen)."
+
+#: ../ui.py:507 ../ui.py:631
+msgid "View or edit file (if size < 1MB)"
+msgstr "Näytä tai muokkaa tiedostoa (jos koko < 1 MB)"
+
+#: ../addons/key_actions.py:400 ../addons/key_actions.py:402
+#, python-format
+msgid "View or edit this %s script"
+msgstr "Näytä tai muokkaa tätä %s-skriptiä"
+
+#: ../addons/type_utils.py:173
+msgid "WARNING!"
+msgstr "VAROITUS!"
+
+#: ../addons/key_actions.py:617
+msgid "What do you want to play?\n"
+msgstr "Mitä haluat toistaa?\n"
+
+#: ../ui.py:103
+msgid "Yes"
+msgstr "Kyllä"
+
+#: ../ui.py:1400
+msgid ""
+"You can set the number of letters from the beginning of the current file "
+"name as the text pre-filled into virtual keyboard for easier input via group "
+"selection."
+msgstr ""
+"Voit määrittää, kuinka monta kirjainta tiedostonimen alusta esitäytetään "
+"virtuaalinäppäimistöön ryhmävalintaa varten."
+
+#: ../ui.py:1402
+msgid ""
+"You can set the number of letters from the end of the current file name as "
+"the text pre-filled into virtual keyboard for easier input via group "
+"selection."
+msgstr ""
+"Voit määrittää, kuinka monta kirjainta tiedostonimen lopusta esitäytetään "
+"virtuaalinäppäimistöön ryhmävalintaa varten."
+
+#: ../ui.py:1398
+msgid ""
+"You can set what will group selection use - start of title, end of title or "
+"contains in title."
+msgstr ""
+"Voit määrittää, mitä ryhmävalinta käyttää – otsikon alkua, loppua tai "
+"sisältöä."
+
+#: ../addons/key_actions.py:518
+#, python-format
+msgid "You can't usefully run '%s' on '%s'."
+msgstr "'%s' ei ole käyttökelpoisesti suoritettavissa kohteelle '%s'."
+
+#: ../addons/key_actions.py:501
+#, python-format
+msgid "You can't usefully run '%s' on a directory."
+msgstr "'%s' ei ole käyttökelpoisesti suoritettavissa hakemistolle."
+
+#: ../ui.py:272
+#, python-format
+msgid "[D]%s%s[F]%s%s"
+msgstr "[Hakemisto] %s%s  [Tiedosto] %s%s"
+
+#: ../addons/type_utils.py:154 ../addons/type_utils.py:340
+msgid "case insensitive"
+msgstr "ei huomioi kirjainkokoa"
+
+#: ../addons/type_utils.py:154 ../addons/type_utils.py:340
+msgid "case sensitive"
+msgstr "huomioi kirjainkoon"
+
+#: ../ui.py:148
+msgid "contains in title"
+msgstr "sisältää otsikossa"
+
+#: ../ui.py:1615
+msgid "contains..."
+msgstr "sisältää..."
+
+#: ../ui.py:561 ../ui.py:874 ../ui.py:1002 ../ui.py:1844
+msgid "copy file"
+msgstr "kopioi tiedosto"
+
+#: ../ui.py:561 ../ui.py:874 ../ui.py:1004 ../ui.py:1842
+msgid "copy folder"
+msgstr "kopioi kansio"
+
+#: ../ui.py:1196
+msgid "create symlink ..."
+msgstr "luo symbolinen linkki ..."
+
+#: ../ui.py:268 ../ui.py:269
+msgid "d"
+msgstr "päiväys"
+
+#: ../ui.py:148
+msgid "end title"
+msgstr "otsikon loppu"
+
+#: ../ui.py:1613
+msgid "ends with..."
+msgstr "päättyy..."
+
+#: ../addons/type_utils.py:175
+msgid "for DATA LOSS OR DAMAGE !!!"
+msgstr "TIETOJEN MENETYKSEN TAI VAURIOIDEN VARALTA !!!"
+
+#: ../ui.py:990 ../ui.py:1019 ../ui.py:1052 ../ui.py:1777 ../ui.py:1812
+#: ../ui.py:1847
+msgid "from dir"
+msgstr "hakemistosta"
+
+#: ../addons/type_utils.py:172
+msgid "has been CHANGED! Do you want to save it?"
+msgstr "on MUUTETTU! Haluatko tallentaa sen?"
+
+#: ../Console.py:29
+msgid "hide"
+msgstr "piilota"
+
+#: ../addons/key_actions.py:305
+#, python-format
+msgid "in %s selected file"
+msgid_plural "in %s selected files"
+msgstr[0] "%s valitussa tiedostossa"
+msgstr[1] "%s valitussa tiedostossa"
+
+#: ../addons/ipk.py:25
+msgid "install/unpack ipk Files"
+msgstr "asenna/pura ipk-tiedostoja"
+
+#: ../plugin.py:15
+msgid "manage local Files"
+msgstr "hallinnoi paikallisia tiedostoja"
+
+#: ../ui.py:561 ../ui.py:874 ../ui.py:1066 ../ui.py:1809
+msgid "move file"
+msgstr "siirrä tiedosto"
+
+#: ../ui.py:561 ../ui.py:874 ../ui.py:1068
+msgid "move folder"
+msgstr "siirrä kansio"
+
+#: ../ui.py:268 ../ui.py:269
+msgid "n"
+msgstr "nimi"
+
+#: ../ui.py:1206
+msgid "new.txt"
+msgstr "uusi.txt"
+
+#: ../FileList.py:237
+msgid "nothing connected"
+msgstr "mitään ei ole kytketty"
+
+#: ../addons/key_actions.py:69
+msgid "play Files"
+msgstr "toista tiedostoja"
+
+#: ../addons/type_utils.py:43
+msgid "play/show Files"
+msgstr "toista/näytä tiedostoja"
+
+#: ../addons/key_actions.py:397
+msgid "python"
+msgstr "python"
+
+#: ../ui.py:268 ../ui.py:269
+msgid "s"
+msgstr "koko"
+
+#: ../addons/key_actions.py:154
+msgid "script 'sterr':"
+msgstr "skriptin 'sterr':"
+
+#: ../addons/key_actions.py:152
+msgid "script 'stout':"
+msgstr "skriptin 'stout':"
+
+#: ../addons/key_actions.py:399
+msgid "shell"
+msgstr "shell"
+
+#: ../ui.py:148
+msgid "start title"
+msgstr "otsikon alku"
+
+#: ../ui.py:1611
+msgid "starts with..."
+msgstr "alkaa..."
+
+#: ../ui.py:990 ../ui.py:1052 ../ui.py:1812 ../ui.py:1847
+msgid "to dir"
+msgstr "hakemistoon"
+
+#: ../addons/unrar.py:16
+msgid "unpack Rar Files"
+msgstr "pura Rar-tiedostoja"
+
+#: ../addons/unarchiver.py:21
+msgid "unpack archives"
+msgstr "pura arkistoja"
+
+#: ../addons/gz.py:17
+msgid "unpack gzip Files"
+msgstr "pura gzip-tiedostoja"
+
+#: ../addons/tar.py:12
+msgid "unpack tar/compressed tar Files"
+msgstr "pura tar/pakatut tar-tiedostot"
+
+#: ../addons/unzip.py:17
+msgid "unpack zip Files"
+msgstr "pura zip-tiedostoja"
+
+#: ../ui.py:67
+msgid "v"
+msgstr "v"
+
+#: ../ui.py:102
+msgid "without"
+msgstr "ilman"
